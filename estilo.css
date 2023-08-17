@@ -1,0 +1,74 @@
+
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/moto-vermelha-dirigindo-na-estrada_114579-5068.jpg?w=1380&t=st=1692228908~exp=1692229508~hmac=3fa5d84d13d85292282d79de98a2ad801c2d720925499b126f7df85e22bf0924);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#titulo{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    margin-left: 20px;
+    margin-right: 20px;   
+    border-radius: 10px;
+}
+
+.botao_div{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+#relatorio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#relatorio p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    border: 10px inset greenyellow;
+    border-radius: 1.2rem;
+    width: 500px;
+    background-color: transparent;
+}
+
+.botao_div button{
+    background-color: #2320b8;
+    border-radius: 5px 0 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cecfda;
+    cursor: pointer;
+    padding: 20px;
+
+    
+ 
+}
+
+#botao:hover{
+    background-color: rgb(130, 197, 136);
+    animation: tremer .2s;
+}
+
+@keyframes tremer{
+    0% {margin-left: 0;};
+    25% {margin-left: 7px;};
+    50% {margin-left: 0};
+    75% {margin-left: -7px;};
+    100% {margin-left: 0;};
+}
+
+
